@@ -1,0 +1,1052 @@
+<html lang="fr" id="company">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>C'est quoi company? | dz.company.com</title>
+    <base href="#">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .bg-body {
+            background-color: #F0F2F5;
+            -webkit-font-smoothing: antialiased;
+            overscroll-behavior-y: none
+        }
+
+        .js_disabled {
+            display: none
+        }
+
+        .font-size-10 {
+            font-size: 0.75rem !important
+        }
+
+        .font-size-11 {
+            font-size: 0.90rem !important
+        }
+
+        .font-size-12 {
+            font-size: 1.09rem !important
+        }
+
+        .font-size-14 {
+            font-size: 1.27rem !important
+        }
+
+        .font-size-16 {
+            font-size: 1.45rem !important
+        }
+
+        .font-size-18 {
+            font-size: 1.64rem !important
+        }
+
+        .font-size-20 {
+            font-size: 1.82rem !important
+        }
+
+        .font-size-22 {
+            font-size: 2rem !important
+        }
+
+        .font-size-24 {
+            font-size: 2.20rem !important
+        }
+
+        .font-size-26 {
+            font-size: 2.36rem !important
+        }
+
+        .font-size-30 {
+            font-size: 2.73rem !important
+        }
+
+        .font-size-42 {
+            font-size: 3.82rem !important
+        }
+
+        .font-size-60 {
+            font-size: 5.45rem !important
+        }
+
+        .bg-grey {
+            background-color: #f2f2f2 !important
+        }
+
+        .bg-grey2 {
+            background-color: #f1f1f1 !important
+        }
+
+        .text-gold {
+            color: #FFD700 !important
+        }
+
+        .text-silver {
+            color: #C0C0C0 !important
+        }
+
+        .text-bronze {
+            color: #CD7F32 !important
+        }
+
+        .text-underline,
+        a.text-underline {
+            text-decoration: underline
+        }
+
+        .cursor-pointer {
+            cursor: pointer
+        }
+
+        .text-grey a,
+        a.text-grey,
+        .text-grey {
+            color: #777
+        }
+
+        .text-grey-light a,
+        a.text-grey-light,
+        .text-grey-light {
+            color: #ccc
+        }
+
+        .bottom-line-blue {
+            border-bottom: 1px solid #428BCA;
+            padding: 0 0 6px
+        }
+
+        .bottom-line-black {
+            border-bottom: 1px solid #000;
+            padding: 0 0 6px
+        }
+
+        .bottom-line-grey {
+            border-bottom: 1px solid #f5f5f5;
+            padding: 0 0 6px
+        }
+
+        .featured-box {
+            background: #FCF8E3 !important
+        }
+
+        .top-ad-box {
+            background: #e8f1ed !important
+        }
+
+        .ad-img-position {
+            width: fit-content !important;
+            object-position: 75% 25%;
+            object-fit: cover
+        }
+
+        div.card:hover,
+        div.card:focus {
+            background: #f1f1f1
+        }
+
+        .box-gallery div.thumbnail:hover,
+        .box-gallery div.thumbnail:focus {
+            background: #f1f1f1
+        }
+
+        .price-badge {
+            position: absolute;
+            top: 0.25rem;
+            right: 0.50rem
+        }
+
+        .no-stretched-link {
+            z-index: 2;
+            position: relative
+        }
+
+        li.toggle_more_less {
+            cursor: pointer;
+            padding: 5px 0 0 0
+        }
+
+        .line-height-200 {
+            line-height: 200%
+        }
+
+        .absolute-text-20 {
+            background: #F9F9F9;
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            opacity: 0.5;
+            filter: alpha(opacity=50)
+        }
+
+        .absolute-text-0 {
+            background: rgba(0, 0, 0, .5);
+            position: absolute;
+            top: 5px;
+            right: 0px;
+            opacity: 0.9;
+            filter: alpha(opacity=90);
+            color: #fff;
+            padding: 1px 3px
+        }
+
+        .relative-text-16 {
+            background: #f9f9f9;
+            margin-top: -23px;
+            opacity: 0.6;
+            filter: alpha(opacity=60);
+            padding: 2px 5px
+        }
+
+        .cat small.count {
+            margin-left: 3em
+        }
+
+        div.progress {
+            height: 10px;
+            margin-bottom: 2px
+        }
+
+        #map_canvas {
+            height: 540px;
+            margin: 10px 0;
+            width: 100%
+        }
+
+        .scroll-top-wrapper {
+            position: fixed;
+            opacity: 0.2;
+            visibility: hidden;
+            overflow: hidden;
+            text-align: center;
+            z-index: 9;
+            background-color: transparent;
+            color: #eee;
+            width: 50px;
+            height: 48px;
+            line-height: 48px;
+            right: 2rem;
+            bottom: 3rem;
+            padding-top: 2px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out
+        }
+
+        .scroll-top-wrapper:hover {
+            background-color: #777
+        }
+
+        .scroll-top-wrapper.show {
+            visibility: visible;
+            cursor: pointer;
+            opacity: 0.6
+        }
+
+        .scroll-top-wrapper i.fa {
+            line-height: inherit
+        }
+
+        .ribbon-box {
+            position: relative
+        }
+
+        .ribbon {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 1;
+            overflow: hidden;
+            width: 75px;
+            height: 75px;
+            text-align: right
+        }
+
+        .ribbon span {
+            font-size: 11px;
+            font-weight: bold;
+            color: #FFF;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 20px;
+            transform: rotate(-45deg);
+            width: 100px;
+            display: block;
+            background: #79A70A;
+            background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+            box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+            position: absolute;
+            top: 19px;
+            left: -21px
+        }
+
+        .ribbon span::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 100%;
+            z-index: -1;
+            border-left: 3px solid #79A70A;
+            border-right: 3px solid transparent;
+            border-bottom: 3px solid transparent;
+            border-top: 3px solid #79A70A
+        }
+
+        .ribbon span::after {
+            content: "";
+            position: absolute;
+            right: 0px;
+            top: 100%;
+            z-index: -1;
+            border-left: 3px solid transparent;
+            border-right: 3px solid #79A70A;
+            border-bottom: 3px solid transparent;
+            border-top: 3px solid #79A70A
+        }
+
+        .ribbon-title {
+            position: relative;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 10px 10px -15px;
+            padding: 6px 20px 6px 30px;
+            color: #fff;
+            background-color: #d31f38;
+            box-shadow: 0px 1px 2px #bbb;
+            -webkit-shadow: 0px 2px 4px #888;
+            -moz-shadow: 0px 2px 4px #888;
+            box-shadow: 0px 2px 4px #888;
+            width: -moz-max-content;
+            width: -webkit-max-content;
+            width: max-content;
+            min-width: 240px
+        }
+
+        .ribbon-title:after {
+            content: ' ';
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: 0px;
+            top: 100%;
+            border-width: 5px 10px;
+            border-style: solid;
+            border-color: #666 #666 transparent transparent
+        }
+
+        .ribbon-vip {
+            height: 28px;
+            margin: 0 auto;
+            position: absolute;
+            width: 48px;
+            left: 0;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+            font-size: 20px;
+            color: #f2f2f2;
+            z-index: 2;
+            background: linear-gradient(#d31f38 0%, #c72239 90%);
+            box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+            opacity: 0.7
+        }
+
+        .ribbon-vip:after,
+        .ribbon-vip:before {
+            content: '';
+            position: absolute;
+            border-top: 15px solid #d31f38;
+            height: 0;
+            width: 0;
+            top: 100%
+        }
+
+        .ribbon-vip:after {
+            border-left: 50px solid transparent;
+            right: 0px
+        }
+
+        .ribbon-vip:before {
+            border-right: 50px solid transparent;
+            left: 0px
+        }
+
+        .submit-pay-img-button {
+            width: 120px;
+            height: 35px
+        }
+
+        .is-invalid .form-control {
+            background: #f2dede
+        }
+
+        .contact-list {
+            opacity: 0;
+            -moz-opacity: 0;
+            visibility: hidden
+        }
+
+        .card:hover .contact-list {
+            opacity: 90;
+            -moz-opacity: 90;
+            visibility: visible
+        }
+
+        .ribbon-top-right {
+            margin: 0 auto;
+            position: absolute;
+            right: -15px;
+            top: -10px;
+            text-align: center;
+            vertical-align: middle;
+            z-index: 2
+        }
+
+        .ribbon-top-left {
+            margin: 0 auto;
+            position: absolute;
+            left: 0;
+            top: -12px;
+            text-align: center;
+            vertical-align: middle;
+            z-index: 2
+        }
+
+        .profile-pics {
+            width: 100%;
+            max-height: 315px;
+            margin: auto;
+            text-align: center;
+            object-fit: cover;
+            object-position: top center
+        }
+
+        .badge-soft-primary {
+            color: #1c4f93;
+            background-color: #d5e5fa
+        }
+
+        .badge-soft-primary[href]:focus,
+        .badge-soft-primary[href]:hover {
+            text-decoration: none;
+            color: #1c4f93;
+            background-color: #a7c9f5
+        }
+
+        .badge-soft-secondary {
+            color: #7d899b;
+            background-color: #e3e6ea
+        }
+
+        .badge-soft-secondary[href]:focus,
+        .badge-soft-secondary[href]:hover {
+            text-decoration: none;
+            color: #7d899b;
+            background-color: #c6ccd4
+        }
+
+        .badge-soft-success {
+            color: #00864e;
+            background-color: #ccf6e4
+        }
+
+        .badge-soft-success[href]:focus,
+        .badge-soft-success[href]:hover {
+            text-decoration: none;
+            color: #00864e;
+            background-color: #a1eecd
+        }
+
+        .badge-soft-info {
+            color: #1978a2;
+            background-color: #d4f2ff
+        }
+
+        .badge-soft-info[href]:focus,
+        .badge-soft-info[href]:hover {
+            text-decoration: none;
+            color: #1978a2;
+            background-color: #a1e3ff
+        }
+
+        .badge-soft-warning {
+            color: #c46632;
+            background-color: #fde6d8
+        }
+
+        .badge-soft-warning[href]:focus,
+        .badge-soft-warning[href]:hover {
+            text-decoration: none;
+            color: #c46632;
+            background-color: #fbc7a7
+        }
+
+        .badge-soft-danger {
+            color: #932338;
+            background-color: #fad7dd
+        }
+
+        .badge-soft-danger[href]:focus,
+        .badge-soft-danger[href]:hover {
+            text-decoration: none;
+            color: #932338;
+            background-color: #f4aab6
+        }
+
+        .badge-soft-light {
+            color: #9fa0a2;
+            background-color: #fefeff
+        }
+
+        .badge-soft-light[href]:focus,
+        .badge-soft-light[href]:hover {
+            text-decoration: none;
+            color: #9fa0a2;
+            background-color: #cbcbff
+        }
+
+        .badge-soft-dark {
+            color: #070f19;
+            background-color: #ced1d4
+        }
+
+        .badge-soft-dark[href]:focus,
+        .badge-soft-dark[href]:hover {
+            text-decoration: none;
+            color: #070f19;
+            background-color: #b3b8bc
+        }
+
+        .nav-side a:hover {
+            border-bottom: 1px solid #007bff
+        }
+
+        @media (min-width: 576px) {
+            .nav-side {
+                display: block !important
+            }
+        }
+
+        @media (min-width: 992px) {
+            .navbar .dropdown:hover .dropdown-menu {
+                display: block
+            }
+
+            .navbar .dropdown-menu:before {
+                position: absolute;
+                top: -14px;
+                left: 18px;
+                display: inline-block;
+                border-right: 14px solid transparent;
+                border-bottom: 14px solid #ccc;
+                border-left: 14px solid transparent;
+                border-bottom-color: rgba(0, 0, 0, 0.2);
+                content: ''
+            }
+
+            .navbar .dropdown-menu:after {
+                position: absolute;
+                top: -12px;
+                left: 19px;
+                display: inline-block;
+                border-right: 14px solid transparent;
+                border-bottom: 14px solid #fff;
+                border-left: 14px solid transparent;
+                content: ''
+            }
+
+            .navbar .dropdown-menu {
+                border-radius: 9px;
+                border: 0
+            }
+        }
+    </style>
+    <meta http-equiv="origin-trial"
+        content="A+cA2PUOfIOKAdSDJOW5CP9ZlxONy1yu+hqAq72zUtKw4rLdihqRp6Nui/jUyCyegr+BUtH+C+Elv0ufn05yBQEAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta http-equiv="origin-trial"
+        content="A+zsdH3aNZT/bkjT8U/o5ACzyaeNYzTvtoVmwf/KOilfv39pxY2AIsOwhQJv+YnXp98i3TqrQibIVtMWs5UHjgoAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta http-equiv="origin-trial"
+        content="AxceVEhIegcDEHqLXFQ2+vPKqzCppoJYsRCZ/BdfVnbM/sUUF2BXV8lwNosyYjvoxnTh2FC8cOlAnA5uULr/zAUAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjY5NzY2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <link rel="preload" href="#" as="script">
+    <script type="text/javascript"
+        src="https://adservice.google.dz/adsid/integrator.js?domain=dz.company.com"></script>
+    <link rel="preload" href="#" as="script">
+    <script type="text/javascript"
+        src="https://adservice.google.com/adsid/integrator.js?domain=dz.company.com"></script>
+</head>
+
+<body>
+    <div id="main-wrapper" class="container-fluid px-0" style="height: auto !important;">
+
+        <header class="header-content clearfix">
+            <div class="container-xl">
+                <div class="text-right font-weight-light text-grey font-size-11">
+                    <a href="about.html"><svg class="bi bi-info  mt-n1 text-grey-light "
+                            width="0.8em" height="0.8em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                            </path>
+                        </svg> C'est quoi <strong>company</strong>?</a> <em class="text-grey-light">|</em> <a
+                        href="contact.html"><svg class="bi bi-envelope  mt-n1 text-grey-light "
+                            width="0.8em" height="0.8em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z">
+                            </path>
+                        </svg> Contact</a> <em class="text-grey-light">|</em> <a
+                        href="contact.html"><svg class="bi bi-info  mt-n1 text-grey-light "
+                            width="0.8em" height="0.8em" viewBox="0 0 16 16" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                            </path>
+                        </svg> Aide</a>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light mx-n3">
+                    <a class="navbar-brand" title="Petites annonces Maroc" href="#"><img
+                            class="img-fluid d-inline-block align-top"
+                            src="https://via.placeholder.com/250x50C/O https://placeholder.com/"
+                            alt="dz.company.com Maroc Logo" title="company.com Maroc" width="250" height="48"
+                            loading="lazy"></a> <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item font-weight-bold d-none">
+                                <a class="nav-link" title="Boutiques Maroc"
+                                    href="#"><svg
+                                        class="bi bi-shop  mt-n1 " width="0.8em" height="0.8em" fill="currentColor"
+                                        viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z">
+                                        </path>
+                                    </svg> Boutiques</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle"
+                                    id="navbarDropdownMenuLink-1" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"><svg class="bi bi-info  mt-n1 "
+                                        width="0.8em" height="0.8em" viewBox="0 0 16 16" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                                        </path>
+                                    </svg> Plus...</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-1">
+                                    <a class="dropdown-item" target="_blank"
+                                        href="#"><svg
+                                            class="bi bi-flag  mt-n1 text-danger " width="0.8em" height="0.8em"
+                                            viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001">
+                                            </path>
+                                        </svg> Signaler un problème</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" title="Les bonnes affaires"
+                                        href="#"><svg
+                                            class="bi bi-deals  mt-n1 text-grey " width="0.8em" height="0.8em"
+                                            fill="currentColor" viewBox="0 0 950 950"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 517c0 13 8 25 21 30l56 21c4-10 10-20 19-28 16-16 38-26 62-26 23 0 45 9 62 26l173 173c24 24 31 60 21 90 25 18 59 22 87 7L738 690c39-20 55-64 42-102 0 0 0 0 0 0 -32 0-61-14-82-38L534 355l-23 23c-16 16-38 25-61 25 -23 0-44-9-61-25l-8-8c-16-16-25-38-25-61 0-23 9-44 25-61l66-66 -14-16c-25-30-68-39-103-21l-178 90L43 192c-21-8-43 7-43 29v296H0z">
+                                            </path>
+                                            <path
+                                                d="M950 505v-242c0-17-14-31-31-31H779L636 127c-15-11-32-16-49-16 -22 0-43 8-59 25l-65 65 -64 64c-25 25-25 64 0 89l8 8c12 12 28 18 45 18 16 0 32-6 45-18l41-41 180 214c13 16 32 26 52 29 4 1 8 1 12 1 6 0 12-1 18-2l128-28C940 532 950 519 950 505z">
+                                            </path>
+                                            <path
+                                                d="M285 820c13 13 29 19 46 19 17 0 33-6 46-19 10-10 16-22 18-35 3-20-3-41-18-56L203 556c-13-13-29-19-46-19s-33 6-46 19l0 0c-6 6-10 13-13 20 -10 24-6 52 13 72L285 820z">
+                                            </path>
+                                        </svg> Les bonnes affaires</a>
+                                    <a class="dropdown-item" href="#"><svg
+                                            class="bi bi-shop  mt-n1 " width="0.8em" height="0.8em" fill="currentColor"
+                                            viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z">
+                                            </path>
+                                        </svg> Annuaire des Entreprises et Services</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="login.html"
+                                    class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
+                                        class="icon16 bi-user mt-n1 text_E91E63"></span>&nbsp;<strong>Mon
+                                        compte</strong></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-4">
+                                    <a class="dropdown-item"
+                                        href="login.html"><span
+                                            class="icon16 bi-user mt-n1"></span>&nbsp;Mon compte</a>
+                                    <a class="dropdown-item"
+                                        href="#"><svg
+                                            class="bi bi-list  mt-n1 text-grey " width="1.4em" height="1.4em"
+                                            viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+                                            </path>
+                                        </svg>&nbsp;Mes annonces</a>
+                                    <a class="dropdown-item"
+                                        href="#">
+                                        <svg class="bi bi-award-fill bi-upgrade  mt-n1 text-success " width="1.4em"
+                                            height="1.4em" viewBox="0 0 16 16" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z">
+                                            </path>
+                                            <path
+                                                d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z">
+                                            </path>
+                                        </svg>&nbsp;Devenir PRO</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-success" href="#"
+                                    data-container="body" data-toggle="popover" data-placement="bottom"
+                                    data-trigger="hover focus" data-html="true"
+                                    data-content="Annoncer 100% gratuit <br /> Confidentialité assurée avec notre centre de messages <br /> 100% gratuit pour vendre ou acheter, partager ou proposer vos services près de chez vous.">
+                                    <span class="text-light"><svg class="bi bi-cloud-plus-fill bi-post-ad  mt-n1 "
+                                            width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm.5 4a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z">
+                                            </path>
+                                        </svg> Publier une annonce</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="container-fluid bg-grey py-2">
+                <div class="container-xl">
+                </div>
+            </div>
+            <div class="container-xl my-2">
+                <nav aria-badge="breadcrumb" class="font-size-11">
+                    <ol class="breadcrumb bg-transparent p-0 m-0 text-grey text-truncate">
+                        <li class="breadcrumb-item" itemprop="itemListElement" itemscope=""
+                            itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="#">
+                                <span itemprop="name"><i class="icon16 bi-home mt-n1"></i> <span
+                                        class="d-none d-sm-inline-block d-inline">Accueil</span></span>
+                                <meta itemprop="position" content="1">
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item" itemprop="itemListElement" itemscope=""
+                            itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="#" title="Maroc"><span
+                                    itemprop="name">annonces Maroc</span>
+                                <meta itemprop="position" content="2">
+                            </a>
+                            <a itemprop="item" class="underline"
+                                href="#"><small class="badge badge-light"
+                                    itemprop="name"><i class="far fa-edit"></i></small>
+                                <meta itemprop="position" content="2">
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item" itemprop="itemListElement" itemscope=""
+                            itemtype="http://schema.org/ListItem">
+                            <span itemprop="name">C'est quoi <strong>company</strong>?</span>
+                            <meta itemprop="position" content="3">
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </header>
+        <main class="main-content clearfix">
+            <div class="container-xl">
+                <div id="about" class="raw">
+                    <h1 class="bottom-line-black font-size-22">C'est quoi <strong>dz.company.com</strong>?</h1>
+                    <p><strong>dz.company.com</strong> est un site internet d'annonces où vous pouvez tout vendre, tout
+                        acheter, tout louer et tout communiquer tout simplement, rapidement et localement.</p>
+                    <p>En d'autres termes, <strong>dz.company.com</strong> est un site internet de petites annonces
+                        gratuites qui met principalement en relation le marché de l'offre et de la demande (<strong>met
+                            en relation vendeur et acheteur</strong>) sans pour autant intervenir dans la transaction
+                        pour permettre aux deux parties de faire les bonnes affaires.
+                        <br>Grâce à <strong>dz.company.com</strong>, vous trouvez facilement et rapidement des
+                        potentiels acheteurs ou clients pour vos articles, produits ou services.
+                    </p>
+                    <p>Les meilleures affaires sont souvent faites avec des gens qui vivent dans votre propre rue ou
+                        dans votre propre ville, donc sur <strong>dz.company.com</strong> il est facile d'acheter et de
+                        vendre localement, louer et communiquer localement. Tout ce que vous avez à faire est de
+                        sélectionner votre ville sur <strong>dz.company.com</strong> pour faire la bonne affaire.</p>
+                    <p>
+                        Sur <strong>dz.company.com</strong>, déposer une annonce vous prendra 1 minute.
+                        Vous choisissez votre ville, sélectionnez une catégorie et une sous-catégorie puis saisissez le
+                        texte de votre annonce et ajoutez des photos originales.
+                        Pas de formulaire compliqué, pas de spam: c'est simple, éfficace, sûr et en plus totalement
+                        gratuit.
+                    </p>
+                    <p><strong>dz.company.com</strong> à la plus large gamme d'articles et produits de seconde main et
+                        services dans tout Maroc, ce qui vous permet de trouver exactement ce que vous cherchez. Si
+                        vous êtes à la recherche d'une voiture, d'une maison, d'un emploi, d'un téléphone mobile, d'un
+                        ordinateur, d'un meuble ou de tout type de services, vous trouverez la meilleure offre sur
+                        <strong>dz.company.com</strong>.</p>
+                    <p>
+                        Vous cherchez un emploi? Vous cherchez un appartement? Vous cherchez un véhicule de seconde
+                        main? Vous cherchez quelque chose à acheter? Vous cherchez un service? Parcourez <a
+                            href="#">nos petites annonces</a>. <br>
+                        Vous avez quelque chose à vendre? Vous avez une offre d'emploi? Un appartement à louer? ou juste
+                        faire connaitre vos services? <a href="#">Publier votre petite annonce</a>
+                        <strong> C'est ✔100% Gratuit, ✔Facile, ✔Rapide, ✔Sûr, ✔Local et ✔Pratique! </strong>
+                    </p>
+                    <p>
+                        <strong>dz.company.com</strong> est un site généraliste d'annonces neuf et occasion pour les
+                        particuliers et professionnels.
+                        Vous pouvez déposer des annonces dans plus de 120 catégories et sous-catégories qui representent
+                        les bésoins de notre vie quotidienne.
+                        Allant de la recherche d'emploi, dépôt de CV, immobilier, véhicules importés ou seconde main,
+                        communauté de votre quartier, services du coin, voitures, autos, appartements, chambres, salon
+                        de beauté...
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Nous avons démarré ce projet car nous croyons en l'<strong>Afrique</strong> et pensons que le
+                        e-commerce en Afrique est le prochain grand bouleversement positif à venir.<br>
+                        Nous sommes tous passionnés de ce que nous faisons, et nous sommes toujours à l'écoute de nos
+                        utilisateurs pour la meilleure expérience utilisateur possible.<br>
+
+                    </p>
+                    <p><strong>company le carrefour des bonnes affaires</strong></p>
+                    <p>
+                        Merci,<br>
+                        L'équipe <strong>company™ Maroc</strong>
+                    </p>
+                    <div class="mt-3 embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://youtu.be/D76FJGAjqUc"
+                            height="380" style="width:100%;" frameborder="0" webkitallowfullscreen=""
+                            mozallowfullscreen="" allowfullscreen=""></iframe>
+                        <p><a href="#">company #1 petites annonces 100% gratuites en ligne en
+                                Afrique</a>.</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div id="how-it-works" class="raw">
+                    <h2 class="bottom-line-black font-size-22">Comment ça <strong>marche</strong></h2>
+                    <div class="box">
+                        <h2 class="bottom-line-grey font-size-16"><strong class="text-danger">1.</strong> Besoin
+                            d'acheter, de vendre, d'un service ou d'un emploi?</h2>
+                        <p>dz.company.com est fait pour vous et vos bonnes affaires !</p>
+                        <ul>
+                            <li>Déposer vos annonces pour un emploi, proposer un service en ligne, acheter ou vendre
+                                etc...</li>
+                            <li>Un large choix d'annonces dans votre quartier et ville</li>
+                            <li>C'est <strong>100% gratuit, facile et rapide</strong></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2 class="bottom-line-grey font-size-16"> <strong class="text-danger">2.</strong> Surfez et
+                            trouvez! </h2>
+                        <p>Recherchez en ligne facilement la propriété de vos rêves et choisissez parmi notre large
+                            choix d'annonces locales</p>
+                        <ul>
+                            <li>Pour voir les annonces près de chez vous, sélectionnez votre ville ou la catégorie qui
+                                vous intéresse.</li>
+                            <li>Annonces très qualitatives et dans votre coin</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2 class="bottom-line-grey font-size-16"> <strong class="text-danger">3.</strong> Contacter
+                            l'annonceur ou le vendeur !</h2>
+                        <p>Quand vous avez trouvé l'objet que vous recherchez, contactez l'annonceur par téléphone ou
+                            par email.</p>
+                        <ul>
+                            <li><strong class="text-danger">Rencontrez l'annonceur en personne et faites la bonne
+                                    affaire.</strong></li>
+                            <li>C'est <strong>facile et rapide</strong> </li>
+                        </ul>
+                    </div>
+                </div>
+                <p>
+                    Merci,<br>
+                    L'équipe de dz.company.com</p>
+                <div class="clearfix"></div>
+            </div>
+        </main>
+        <footer class="footer-content clearfix overflow-hidden" style="height: auto !important;">
+            <div class="container-fluid px-0" style="height: auto !important;">
+                <div class="my-4 text-center">
+                    <script
+                        src="https://partner.googleadservices.com/gampad/cookie.js?domain=dz.company.com&amp;callback=_gfp_s_&amp;client=ca-pub-9694149448258192&amp;cookie=ID%3Ddea72fab91e46973-22ec5b96e7d500e4%3AT%3D1664017254%3ART%3D1664017254%3AS%3DALNI_Maqy2njNPejat4M6GeztKsHtkEI_A&amp;gpic=UID%3D00000ae6855f1ae4%3AT%3D1664017254%3ART%3D1664017254%3AS%3DALNI_MaGMETib2stndIMJ7lQsHCei85CDg&amp;gpid_exp=1"></script>
+                    <script type="text/javascript" async=""
+                        src="https://www.google-analytics.com/analytics.js"></script>
+                    <script
+                        src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202209200101/show_ads_impl_fy2021.js?bust=31069740"
+                        id="google_shimpl"></script>
+                    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                        type="text/javascript"></script>
+
+                    <ins class="adsbygoogle" style="display: block; height: 309px;"
+                        data-ad-client="ca-pub-9694149448258192" data-ad-slot="6082081261" data-ad-format="auto"
+                        data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled">
+                        <div id="aswift_0_host" tabindex="0" title="Advertisement" aria-label="Advertisement"
+                            style="border: none; height: 309px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden;">
+                            <iframe id="aswift_0" name="aswift_0"
+                                style="left: 0px; position: absolute; top: 0px; border: 0px; width: 1200px; height: 309px;"
+                                sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                                width="1200" height="309" frameborder="0" marginwidth="0" marginheight="0" vspace="0"
+                                hspace="0" allowtransparency="true" scrolling="no"
+                                src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9694149448258192&amp;output=html&amp;h=280&amp;slotname=6082081261&amp;adk=1843064226&amp;adf=2041181682&amp;pi=t.ma~as.6082081261&amp;w=1200&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1664020006&amp;rafmt=1&amp;psa=1&amp;format=1200x280&amp;url=https%3A%2F%2Fdz.company.com%2Fabout_us.php&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTA1LjAuNTE5NS4xMjciLFtdLGZhbHNlLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTA1LjAuNTE5NS4xMjciXSxbIk5vdClBO0JyYW5kIiwiOC4wLjAuMCJdLFsiQ2hyb21pdW0iLCIxMDUuMC41MTk1LjEyNyJdXSxmYWxzZV0.&amp;dt=1664020006857&amp;bpp=5&amp;bdt=727&amp;idt=68&amp;shv=r20220921&amp;mjsv=m202209200101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Ddea72fab91e46973-22ec5b96e7d500e4%3AT%3D1664017254%3ART%3D1664017254%3AS%3DALNI_Maqy2njNPejat4M6GeztKsHtkEI_A&amp;gpic=UID%3D00000ae6855f1ae4%3AT%3D1664017254%3ART%3D1664017254%3AS%3DALNI_MaGMETib2stndIMJ7lQsHCei85CDg&amp;correlator=4780402996132&amp;frm=20&amp;pv=2&amp;ga_vid=688309990.1663517873&amp;ga_sid=1664020007&amp;ga_hid=1657147064&amp;ga_fc=1&amp;u_tz=120&amp;u_his=2&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;dmc=4&amp;adx=75&amp;ady=2281&amp;biw=1349&amp;bih=625&amp;scr_x=0&amp;scr_y=6&amp;eid=44759875%2C44759926%2C44759837%2C31069740%2C44773167%2C31061690%2C31067826&amp;oid=2&amp;pvsid=4432977903454006&amp;tmod=568026174&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fdz.company.com%2Fregister.php%3Fcountry%3DDZ%26lang%3Dfr&amp;eae=0&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C728%2C1366%2C625&amp;vis=1&amp;rsz=%7C%7CoEebr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;btvi=1&amp;fsb=1&amp;xpc=K82Zl8uly6&amp;p=https%3A//dz.company.com&amp;dtd=91"
+                                data-google-container-id="a!1" data-google-query-id="CPfVtMutrfoCFZj47QodYB0DKw"
+                                data-load-complete="true"></iframe></div>
+                    </ins>
+                    <script type="text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="container-fluid py-2 bg-dark text-grey text-muted">
+                    <div class="container-xl mt-4 mb-3 py-1">
+                        <div class="row">
+                            <div class="col-auto font-size-11">
+                                <h4>Contact &amp; Plus</h4>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a class="text-grey"
+                                            href="#"><svg class="bi bi-info  mt-n1 "
+                                                width="0.8em" height="0.8em" viewBox="0 0 16 16" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                                                </path>
+                                            </svg> C'est quoi <strong>company</strong>?</a></li>
+                                    <li class="list-inline-item"><a class="text-grey" rel="nofollow"
+                                            href="#"><svg
+                                                class="bi bi-envelope  mt-n1 " width="0.8em" height="0.8em"
+                                                viewBox="0 0 16 16" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z">
+                                                </path>
+                                            </svg> Contactez-nous</a></li>
+                                    <li class="list-inline-item"><a class="text-grey"
+                                            href="#"><svg
+                                                class="bi bi-info  mt-n1 " width="0.8em" height="0.8em"
+                                                viewBox="0 0 16 16" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z">
+                                                </path>
+                                            </svg> Aide</a></li>
+                                    <li class="list-inline-item"><a class="text-grey" rel="nofollow"
+                                            href="#"><svg
+                                                class="bi bi-flag  mt-n1 " width="0.8em" height="0.8em"
+                                                viewBox="0 0 16 16" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001">
+                                                </path>
+                                            </svg> Signaler un problème</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-auto font-size-11">
+                                <h4 class="text-truncate">Information Utile</h4>
+                                <ul class="list-inline">
+
+                                    <li class="list-inline-item"><a class="text-grey"
+                                            href="#"><svg
+                                                class="bi bi-deals  mt-n1 " width="0.8em" height="0.8em"
+                                                fill="currentColor" viewBox="0 0 950 950"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 517c0 13 8 25 21 30l56 21c4-10 10-20 19-28 16-16 38-26 62-26 23 0 45 9 62 26l173 173c24 24 31 60 21 90 25 18 59 22 87 7L738 690c39-20 55-64 42-102 0 0 0 0 0 0 -32 0-61-14-82-38L534 355l-23 23c-16 16-38 25-61 25 -23 0-44-9-61-25l-8-8c-16-16-25-38-25-61 0-23 9-44 25-61l66-66 -14-16c-25-30-68-39-103-21l-178 90L43 192c-21-8-43 7-43 29v296H0z">
+                                                </path>
+                                                <path
+                                                    d="M950 505v-242c0-17-14-31-31-31H779L636 127c-15-11-32-16-49-16 -22 0-43 8-59 25l-65 65 -64 64c-25 25-25 64 0 89l8 8c12 12 28 18 45 18 16 0 32-6 45-18l41-41 180 214c13 16 32 26 52 29 4 1 8 1 12 1 6 0 12-1 18-2l128-28C940 532 950 519 950 505z">
+                                                </path>
+                                                <path
+                                                    d="M285 820c13 13 29 19 46 19 17 0 33-6 46-19 10-10 16-22 18-35 3-20-3-41-18-56L203 556c-13-13-29-19-46-19s-33 6-46 19l0 0c-6 6-10 13-13 20 -10 24-6 52 13 72L285 820z">
+                                                </path>
+                                            </svg> Les bonnes affaires</a></li>
+                                    <li class="list-inline-item"><a class="text-grey"
+                                            href="#"><svg class="bi bi-shop  mt-n1 "
+                                                width="0.8em" height="0.8em" fill="currentColor" viewBox="0 0 16 16"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z">
+                                                </path>
+                                            </svg> Annuaire</a></li>
+                                </ul>
+                            </div>
+                            <div class="d-none font-size-11 text-muted my-4">
+                                dz.company.com Maroc est votre site d'annonces de particuliers et professionnels,
+                                emploi, voitures occasion ou neuves, immo, services de proximité, événements... company
+                                le Carrefour des Bonnes Affaires. dz.company.com vous permet de vendre et d'acheter
+                                dans votre région. Publiez votre petite annonce gratuite ou évènement dans votre
+                                localité en quelques clics! et organisez la remise en mains propres directement avec
+                                l'acheteur ou le vendeur. C'est simple, éfficace et 100% gratuit.Recherchez des petites
+                                annonces d'occasion ou neuves sur company com Maroc DZ et aussi sur votre téléphone
+                                mobile.
+                                <a href="#" target="_blank">Lire la suite...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-auto pt-2 pb-4 text-center">
+                        <span class="font-weight-normal enabled"><a
+                                href="#"><i
+                                    class="icon24 bi-mobile"></i>&nbsp;Mobile</a></span>
+                        &nbsp;&nbsp;
+                        <span class="enabled"><a href="#"><i
+                                    class="icon24 bi-tablet"></i>&nbsp;Tablet</a></span>
+                        &nbsp;&nbsp;
+                        <span class="disabled text-grey"><i class="icon24 bi-desktop"></i>&nbsp;Classique</span>
+                    </div>
+                    <div class="row font-size-11">
+                        <div class="col text-left">
+                            © 2022&nbsp; T Group SLU </div>
+                        <div class="col text-right">
+                            <a rel="nofollow" href="#"> Conditions</a>
+                            <small>|</small>
+                            <a rel="nofollow" href="#">Confidentialité</a>
+                            <small>|</small>
+                            <a href="#"><i class="fas fa-sitemap"></i> Sitemap</a>
+                        </div>
+                    </div>
+                    <div class="scroll-top-wrapper"><span class="scroll-top-inner"><svg width="3.3em" height="3.3em"
+                                viewBox="0 0 16 16" class="bi bi-arrow-up-square-fill text-grey bg-transparent"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 11.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z">
+                                </path>
+                            </svg></span></div>
+                </div>
+            </div>
+        </footer>
+
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-15453710-55"
+            type="text/javascript"></script>
+        <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-15453710-55');
+        </script>
+    </div>
+
+
+    <ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"
+        data-ad-status="unfilled">
+        <div id="aswift_1_host" tabindex="0" title="Advertisement" aria-label="Advertisement"
+            style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;">
+            <iframe id="aswift_1" name="aswift_1"
+                style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;"
+                sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true"
+                scrolling="no"
+                src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9694149448258192&amp;output=html&amp;adk=2642876929&amp;adf=451805245&amp;lmt=1664020006&amp;plat=1%3A1024%2C2%3A1024%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fdz.company.com%2Fabout_us.php&amp;ea=0&amp;pra=7&amp;wgl=1&amp;easpi=1&amp;easai=1&amp;asntp=0&amp;asntpv=0&amp;asntpl=0&amp;asntpm=0&amp;asntpc=300&amp;asna=5&amp;asnd=5&amp;asnp=5&amp;asns=5&amp;asmat=-1&amp;asptt=-1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTA1LjAuNTE5NS4xMjciLFtdLGZhbHNlLG51bGwsIjY0IixbWyJHb29nbGUgQ2hyb21lIiwiMTA1LjAuNTE5NS4xMjciXSxbIk5vdClBO0JyYW5kIiwiOC4wLjAuMCJdLFsiQ2hyb21pdW0iLCIxMDUuMC41MTk1LjEyNyJdXSxmYWxzZV0.&amp;dt=1664020006866&amp;bpp=2&amp;bdt=737&amp;idt=106&amp;shv=r20220921&amp;mjsv=m202209200101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Ddea72fab91e46973-22ec5b96e7d500e4%3AT%3D1664017254%3ART%3D1664017254%3AS%3DALNI_Maqy2njNPejat4M6GeztKsHtkEI_A&amp;gpic=UID%3D00000ae6855f1ae4%3AT%3D1664017254%3ART%3D1664017254%3AS%3DALNI_MaGMETib2stndIMJ7lQsHCei85CDg&amp;prev_fmts=1200x280&amp;nras=1&amp;correlator=4780402996132&amp;frm=20&amp;pv=1&amp;ga_vid=688309990.1663517873&amp;ga_sid=1664020007&amp;ga_hid=1657147064&amp;ga_fc=1&amp;u_tz=120&amp;u_his=2&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;dmc=4&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1349&amp;bih=625&amp;scr_x=0&amp;scr_y=51&amp;eid=44759875%2C44759926%2C44759837%2C31069740%2C44773167%2C31061690%2C31067826&amp;oid=2&amp;pvsid=4432977903454006&amp;tmod=568026174&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Fdz.company.com%2Fregister.php%3Fcountry%3DDZ%26lang%3Dfr&amp;eae=2&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C728%2C1366%2C625&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=113"
+                data-google-container-id="a!2" data-load-complete="true"></iframe></div>
+    </ins><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0"
+        style="display: none;"></iframe>
+</body><iframe id="google_esf" name="google_esf"
+    src="https://googleads.g.doubleclick.net/pagead/html/r20220921/r20190131/zrt_lookup.html"
+    style="display: none;"></iframe>
+
+</html>
